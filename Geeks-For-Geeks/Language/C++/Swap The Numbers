@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cin >> a >> b;
+    // first method ;
+    //  int temp = a ;
+    //  a = b ;
+    //  b = temp ;
+    
+    // method 2nd 
+    // swap(a,b);
+    
+    // method 3rd ;
+      a = a+b ;
+      b = a-b ;
+      a = a-b ;
+    cout << a << " " << b << endl;
+    return 0;
+}
