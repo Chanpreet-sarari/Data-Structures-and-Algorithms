@@ -1,0 +1,15 @@
+// User function Template for C++
+
+int LCM(int a, int b)
+{
+    int x = a ;
+    int y = b ;
+     while(b != 0)
+     {
+         int temp = b ;
+         b = a % b ;
+         a = temp ;
+     }
+     int ans = (x*y)/a;
+     return ans;
+}
